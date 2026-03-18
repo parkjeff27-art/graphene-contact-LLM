@@ -17,31 +17,6 @@ Fine-Tuning a 7B Language Model as a Condensed Matter Physics Expert with 64 Exa
 
 This repository contains the complete codebase for fine-tuning and evaluating a domain-specific language model for condensed matter physics research. The model is trained on only **64 question–answer pairs** from a single research paper on graphene–metal contact resistance, using **QDoRA (Quantized Weight-Decomposed Low-Rank Adaptation)** with **Chain-of-Thought reasoning** on a single consumer GPU.
 
-## Repository Structure
-graphene-contact-LLM/
-│
-├── 📊 Training Data
-│   └── thesis_contact_resistance_v3.json    # 64 QA pairs with CoT (final dataset)
-│
-├── 🔧 Fine-Tuning Scripts (Main)
-│   └── train_contact_resistance_v3.py       # QDoRA+CoT, 64 QA pairs (main paper)
-│
-├── 🔧 Fine-Tuning Scripts (Ablation Study)
-│   ├── train_contact_resistance_v1.py       # QDoRA+CoT, 49 QA pairs
-│   ├── train_no_cot.py                      # QDoRA without CoT, 49 QA pairs
-│   ├── train_qlora_cot.py                   # QLoRA+CoT, 49 QA pairs
-│   └── train_qlora_no_cot.py               # QLoRA without CoT, 49 QA pairs
-│
-├── 💬 Inference Scripts
-│   ├── auto_test_v3.py                      # Automated evaluation (30 questions)
-│   ├── chat_base.py                         # Base model (no fine-tuning)
-│   ├── chat_contact_resistance_v1.py        # QDoRA+CoT interactive chat
-│   ├── chat_no_cot.py                       # QDoRA-CoT interactive chat
-│   ├── chat_qlora_cot.py                    # QLoRA+CoT interactive chat
-│   └── chat_qlora_no_cot.py               # QLoRA-CoT interactive chat
-│
-├── .gitignore
-└── LICENSE                                  # Apache 2.0
 
 ## Fine-Tuned Model
 
