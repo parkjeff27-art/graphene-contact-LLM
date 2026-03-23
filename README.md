@@ -19,6 +19,7 @@ This repository contains the complete codebase for fine-tuning and evaluating a 
 
 
 ## Research Article
+Small Data, Small Model, Superior Domain Accuracy: Fine-Tuning a 7B Language Model as a Condensed Matter Physics Expert with 64 Examples
 (https://www.preprints.org/manuscript/202603.1691)
 
 
