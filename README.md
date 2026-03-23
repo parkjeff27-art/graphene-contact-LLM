@@ -18,6 +18,10 @@ Fine-Tuning a 7B Language Model as a Condensed Matter Physics Expert with 64 Exa
 This repository contains the complete codebase for fine-tuning and evaluating a domain-specific language model for condensed matter physics research. The model is trained on only **64 question–answer pairs** from a single research paper on graphene–metal contact resistance, using **QDoRA (Quantized Weight-Decomposed Low-Rank Adaptation)** with **Chain-of-Thought reasoning** on a single consumer GPU.
 
 
+## Research Article
+(https://www.preprints.org/manuscript/202603.1691)
+
+
 ## Fine-Tuned Model
 
 The final fine-tuned adapter is available on Hugging Face:
@@ -121,7 +125,6 @@ Key findings: QDoRA provides slightly more stable performance than QLoRA, while 
 - Department of Physics and Photon Science, GIST (Gwangju Institute of Science and Technology), Korea
 - Hugging Face: [pjspjs0987](https://huggingface.co/pjspjs0987)
 - GitHub: [parkjeff27-art](https://github.com/parkjeff27-art)
-- Research Article: (https://www.preprints.org/manuscript/202603.1691)
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
