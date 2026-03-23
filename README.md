@@ -121,7 +121,7 @@ Key findings: QDoRA provides slightly more stable performance than QLoRA, while 
 - Department of Physics and Photon Science, GIST (Gwangju Institute of Science and Technology), Korea
 - Hugging Face: [pjspjs0987](https://huggingface.co/pjspjs0987)
 - GitHub: [parkjeff27-art](https://github.com/parkjeff27-art)
-
+- Research Article: (https://www.preprints.org/manuscript/202603.1691)
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
